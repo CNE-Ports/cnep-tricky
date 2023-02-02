@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character>
+    <anim name="idle" anim="Idle" x="0" y="-117"/>
+    
+    <anim name="singLEFT"  anim="Sing Left"  x="194" y="-95"/>
+    <anim name="singDOWN"  anim="Sing Down"  x="32"  y="-168"/>
+    <anim name="singUP"    anim="Sing Up"    x="93"  y="-100"/>
+    <anim name="singRIGHT" anim="Sing Right" x="16"  y="-164"/>
+</character>

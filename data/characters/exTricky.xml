@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-character>
+<character>
+    <anim name="idle" anim="Idle"/>
+    <anim name="Hank" anim="Hank" loop="true"/>
+
+    <anim name="singLEFT"  anim="Sing Left"  x="127"  y="20"/>
+    <anim name="singDOWN"  anim="Sing Down"  x="-100" y="-340"/>
+    <anim name="singUP"    anim="Sing Up"             y="100"/>
+    <anim name="singRIGHT" anim="Sing Right" x="-209" y="-29"/>
+</character>
+<!-- reminder to do exSpikes, https://github.com/KadeDev/trickster/blob/master/source/Character.hx#L376 -->
