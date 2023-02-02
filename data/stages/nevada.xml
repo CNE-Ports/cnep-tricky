@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.75" name="nevada" folder="stages/nevada">
+    <sprite name="bg" sprite="red" x="-350" y="-300" scroll="0.9"/>
+    <sprite name="stageFront" sprite="island_but_dumb" x="-1100" y="-460" scale="1.4" scroll="0.9"/>
+    <girlfriend />
+    <dad />
+    <boyfriend x="1020"/>
+    <!-- <sprite name="MAINLIGHT" sprite="hue" x="-470" y="-150" scale="0.9" scroll="1.2">
+        <property name="alpha" type="float" value="0.7"/>
+    </sprite> -->
+    <!-- <sprite name="tstatic" sprite="red" x="-350" y="-300" scale="8.3" scroll="0">
+        <anim name="static" anim="0, 1, 2" loop="true"/>
+    </sprite> -->
+</stage>

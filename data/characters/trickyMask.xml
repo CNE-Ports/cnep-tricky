@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character>
+<character camx="400">
     <anim name="idle" anim="Idle" x="0" y="-117"/>
     
     <anim name="singLEFT"  anim="Sing Left"  x="194" y="-95"/>
