@@ -1,0 +1,18 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.55" name="auditorHell" folder="stages/auditorHell">
+    <!-- static -->
+    <sprite name="bg" sprite="bg" x="-10" y="-10" scroll="0.9" scale="4"/>
+    <sprite name="energywall" sprite="Energywall" x="1350" y="-690" scroll="0.9"/>
+    <sprite name="stageFront" sprite="daBackground" x="-350" y="-355" scroll="0.9" scale="1.55"/>
+
+    <girlfriend x="745" y="105"/>
+
+    <sprite name="hole" sprite="Spawnhole_Ground_BACK" x="50" y="530" scroll="0.9" scale="1.55"/>
+
+    <dad x="-150" y="-265"/>
+
+    <sprite name="cover" sprite="cover" x="-180" y="755" scroll="0.9" scale="1.55"/>
+    <sprite name="converHole" sprite="Spawnhole_Ground_COVER" x="7" y="578" scroll="0.9" scale="1.3"/>
+
+    <boyfriend x="1120" y="-50"/>
+</stage>
