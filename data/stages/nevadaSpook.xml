@@ -1,0 +1,48 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.35" name="nevadaSpook" folder="stages/nevada/spook">https://github.com/Kade-github/trickster/blob/master/source/PlayState.hx#L411
+    <sprite name="bg" sprite="bg" x="-1000" y="-1000" scroll="0.9" scale="5"/>
+    <sprite name="stageFront" sprite="island_but_red" x="-2000" y="-400" scroll="0.9" scale="2.6"/>
+    <sprite name="hank" sprite="Hank" x="60" y="-170" scroll="0.9" scale="1.55">
+        <anim name="dance" anim="Hank"/>
+    </sprite>
+    <girlfriend x="240" scale="0.8"/>
+    <dad x="-1300" y="-1900"/>
+    <boyfriend x="1020" scale="0.8"/>
+
+    <!-- dad.y -= 2000;
+    dad.x -= 1400;
+    gf.x -= 380; -->
+</stage>
+
+<!-- var bg:FlxSprite = new FlxSprite(-1000, -1000).loadGraphic(Paths.image('fourth/bg','clown'));
+bg.antialiasing = true;
+bg.scrollFactor.set(0.9, 0.9);
+bg.setGraphicSize(Std.int(bg.width * 5));
+bg.active = false;
+add(bg);
+
+var stageFront:FlxSprite = new FlxSprite(-2000, -400).loadGraphic(Paths.image('hellclwn/island_but_red','clown'));
+stageFront.setGraphicSize(Std.int(stageFront.width * 2.6));
+stageFront.antialiasing = true;
+stageFront.scrollFactor.set(0.9, 0.9);
+stageFront.active = false;
+add(stageFront);
+
+hank = new FlxSprite(60,-170);
+hank.frames = Paths.getSparrowAtlas('hellclwn/Hank','clown');
+hank.animation.addByPrefix('dance','Hank',24);
+hank.animation.play('dance');
+hank.scrollFactor.set(0.9, 0.9);
+hank.setGraphicSize(Std.int(hank.width * 1.55));
+hank.antialiasing = true;
+
+
+add(hank); -->
+
+<!-- gf version = gf-hell -->
+<!-- bf version = bf-hell -->
+
+<!--
+    tstatic.setGraphicSize(Std.int(tstatic.width * 12));
+    tstatic.x += 600;
+-->

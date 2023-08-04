@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-stage>
-<stage zoom="0.55" name="auditorHell" folder="stages/auditorHell">
+<stage zoom="0.55" name="auditorHell" folder="stages/auditor">
     <!-- static -->
     <sprite name="bg" sprite="bg" x="-10" y="-10" scroll="0.9" scale="4"/>
     <sprite name="energywall" sprite="Energywall" x="1350" y="-690" scroll="0.9"/>
