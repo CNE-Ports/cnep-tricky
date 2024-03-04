@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-stage>
-<stage zoom="0.35" name="nevadaSpook" folder="stages/nevada/spook">https://github.com/Kade-github/trickster/blob/master/source/PlayState.hx#L411
+<stage zoom="0.35" name="nevadaSpook" folder="stages/nevada/spook">
     <sprite name="bg" sprite="bg" x="-1000" y="-1000" scroll="0.9" scale="5"/>
     <sprite name="stageFront" sprite="island_but_red" x="-2000" y="-400" scroll="0.9" scale="2.6"/>
     <sprite name="hank" sprite="Hank" x="60" y="-170" scroll="0.9" scale="1.55">
@@ -13,6 +13,8 @@
     dad.x -= 1400;
     gf.x -= 380; -->
 </stage>
+
+<!-- https://github.com/Kade-github/trickster/blob/master/source/PlayState.hx#L411 -->
 
 <!-- var bg:FlxSprite = new FlxSprite(-1000, -1000).loadGraphic(Paths.image('fourth/bg','clown'));
 bg.antialiasing = true;
