@@ -51,7 +51,7 @@ function create() {
     people.updateHitbox();
 
     var show:String = 'bf';
-    var r = FlxG.random.float(0,10000);
+    var r = FlxG.random.float(0, 10000);
     if (r >= 1000 && r <= 1999) show = 'tricky';
     if (r >= 3000 && r <= 3999) show = 'jebus';
     if (r >= 4000 && r <= 4999) show = 'sanford';
@@ -276,6 +276,9 @@ function create() {
 }
 
 function update() {
+    if (FlxG.keys.justPressed.F)
+        FlxG.switchState(new FreeplayState());
+
     if (FlxG.keys.justPressed.RIGHT) peow(1);
     if (FlxG.keys.justPressed.LEFT) peow(-1);
 
